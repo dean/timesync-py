@@ -26,7 +26,10 @@ on debian based systems or the equivalent.
 To setup the database run:
 ```sh
 python manage.py setup_db
+python manage.py setup_db
 ```
+
+The above is not a typo, it must be run twice.
 
 ## Usage
 
@@ -40,7 +43,7 @@ Once that's done, run
 python manage.py runserver
 ```
 
-and you should notice that the server is running on ```localhost:3000```.
+and you should notice that the server is running on ```127.0.0.1:5000```.
 
 ## Support
 
